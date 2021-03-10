@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://www.dafont.com/img/illustration/h/e/hello.png);
+    background-size: cover;
+}
+/* element,element  */
+h2,p {
+    color: #AA4139;
+    background-color: lightblue;
+    text-align: center;
+    border: 5px solid pink;
+    border-color: rgba(255, 176, 170, 0.5);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+p {
+    color: greenyellow;
+}
+/* La cascada significa que se lee el final del documento de css, por lo que p se pinta de rosado */
+p{
+    color: green;
+    text-decoration: underline;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace; 
+}
+.web-p{
+    border: 5px dashed green;
+}
+#div{
+    background-color: honeydew;
+}
+/* todas las italicas que estan dentro de un p (paragraph) */
+p i{
+    background-color: khaki;
+}
+
+/* solo los bold que sean hijos directos de p */
+p > b {
+    background-color: lightcoral;
+}
+/* solo los p que sigan a continuación de h2  */
+h2+p:hover{
+    background-color: lightslategray;
+}
+
+p:last-child{
+    color:fuchsia;
+}
+h2:first-child{
+    color:wheat;
+}
+img {
+    float: right;
+}
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    background-color: violet;
+}

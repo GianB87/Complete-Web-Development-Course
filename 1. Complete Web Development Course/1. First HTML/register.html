@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <!-- use GET, not POST -->
+    <p><a href="index.html">Return Home</a></p>
+    <p><em><a href="other.html">View other tags</a></em></p>
+    <form method="GET">
+        <h1>input text</h1>
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        <h1>password as input</h1>
+        Password: <input type="password" name="password" id="password" minlength="5"> <br>
+        <h2>for emails</h2>
+        Email: <input type="email" name="email" required><br>
+        <h1>when dealing with dates</h1>
+        Birthday: <input type="date" name="Fecha" id="Birthday"><br>
+        <h1>radio button</h1>
+        Gender: <br>
+        <input type="radio" name="gender" id="gender">Male<br>
+        <input type="radio" name="gender" id="gender">Female<br>
+        <input type="radio" name="gender" id="gender">Other<br>
+        <h1>checkbox</h1>
+        Pets: <br>
+        <input type="checkbox" name="cats" id="pets">Cats <br>
+        <input type="checkbox" name="dogs" id="pets">Dogs <br>
+        <h1>How to select?</h1>
+        Cars: <br>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="nissan">Nissan</option>
+        </select><br>
+        <h2>Podemos seleccionar multiplos</h2>
+        <select name="cars2" id="cars2" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="nissan">Nissan</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Please!">
+    </form>
+</body>
+</html>

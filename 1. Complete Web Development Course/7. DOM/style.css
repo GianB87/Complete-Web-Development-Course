@@ -1,0 +1,49 @@
+.style-yellow{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.style-green{
+    background-color: greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+.style-green:hover{
+    background-color: chartreuse;
+}
+.done {
+    text-decoration: line-through;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    width: 12em;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+li {
+    width: 10em;
+    list-style-type: none;
+    text-align: center;
+}
+.button{
+    width: 4em;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+.button:hover{
+    background-color: salmon;
+}
+hr{
+    width: 12em;
+    margin-left: 0.4em;
+    border-color: blue;
+    background-color: cadetblue;
+    padding: 3px;
+}
